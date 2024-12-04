@@ -1,0 +1,81 @@
+.datatable-crud-demo .p-datatable {
+  background-color: #f8f9fa; /* Fondo más claro */
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.datatable-crud-demo .p-datatable-header {
+  background-color: #e0e0e0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 1rem;
+}
+
+.datatable-crud-demo .p-datatable-sm .p-datatable-thead > tr > th {
+  padding: 0.25rem; /* Reducido el padding */
+}
+
+.datatable-crud-demo .p-datatable-sm .p-datatable-tbody > tr > td {
+  padding: 0.25rem; /* Reducido el padding */
+  text-align: left;
+}
+
+.datatable-crud-demo .p-button {
+  margin-right: 0.5rem;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #e0e0e0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.table-header .p-input-icon-left {
+  width: 300px;
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center; /* Centrar los inputs */
+}
+
+.p-button-minimal {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #6c757d; /* Botones gris oscuro */
+}
+
+.p-button-icon-only {
+  border-radius: 4px;
+  border: none;
+  background-color: transparent; /* Sin fondo */
+  color: #6c757d; /* Iconos gris oscuro */
+}
+
+.p-button-icon-only .p-button-icon {
+  font-size: 1.25rem;
+}
+
+.p-inputtext {
+  border: 1px solid #ced4da; /* Agregado borde a los inputs */
+  border-radius: 4px;
+  padding: 0.15rem;
+  background-color: #ffffff;
+  width: 140px; /* Reducido el ancho */
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem; /* Espacio entre los botones */
+}
+
+.centered-input {
+  text-align: center; /* Centrar el texto dentro del input */
+}
